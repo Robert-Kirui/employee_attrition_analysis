@@ -1,6 +1,16 @@
 ## Employee Attrition Analysis
 ---
 
+### Table of Contents
+- [Overview](#Overview)
+- [Data source](#Data-source)
+- [Tools](#Tools)
+- [Data Analysis](#Data-Analysis)
+- [Findings](#Findings)
+- [Recommendations](#Recommendations)
+- [Limitations](#Limitations)
+- [References](#References)
+
 ### Overview 
 To determine employee attrition for the company and the variation by gender, department, job roles, level of education, field of education, age band, frequency of business travel, and marital status. Also, to determine the correlation between attrition and stock option level, number of trainings in the last year, number of years since last promotion, number of companies previously worked, total working years, number of years in the current role, and number of years at the company.
 
