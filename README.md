@@ -3,7 +3,7 @@
 
 ### Table of Contents
 - [Overview](#Overview)
-- [Data source](#Data-source)
+- [Data Source](#Data-Source)
 - [Tools](#Tools)
 - [Data Analysis](#Data-Analysis)
 - [Findings](#Findings)
