@@ -266,4 +266,4 @@ ORDER BY Number_of_Ex_Employees DESC;
 ### Limitations
 
 ### References 
-[Data Tutorials YouTube channel](https://www.youtube.com/watch?v=-sOHVl_iCHA&t=4s)
+- [Data Tutorials YouTube channel](https://www.youtube.com/watch?v=-sOHVl_iCHA&t=4s)
