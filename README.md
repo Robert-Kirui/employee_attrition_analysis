@@ -4,7 +4,7 @@
 ### Overview 
 To determine employee attrition for the company and the variation by gender, department, job roles, level of education, field of education, age band, frequency of business travel, and marital status. Also, to determine the correlation between attrition and stock option level, number of trainings in the last year, number of years since last promotion, number of companies previously worked, total working years, number of years in the current role, and number of years at the company.
 
-![overview1](https://github.com/Robert-Kirui/employee_attrition_analysis/assets/151769501/6701d943-ae3a-46fa-b0b5-b1c288168b87)
+![overview](https://github.com/Robert-Kirui/employee_attrition_analysis/assets/151769501/69421771-a789-414b-8858-72992ede2819)
 
 
 ### Data Source
@@ -260,5 +260,10 @@ ORDER BY Number_of_Ex_Employees DESC;
 - Employees who have been in the company for 1 and 2 years have the highest attrition (24.89% and 11.39% respectively). Attrition rate is the lowest among employees who have been in the company for 15 years or more (0.42%). 
 
 ### Recommendations
+1. Delay promotions among employees in Research and Development (R&D) and Sales departments, and among Lab Technicians and Sales Executives to minimize attrition.
+2. When hiring, give priority to individuals who have worked for many other companies before because they are less likely to leave the company soon. 
 
 ### Limitations
+
+### References 
+[Data Tutorials YouTube channel](https://www.youtube.com/watch?v=-sOHVl_iCHA&t=4s)
