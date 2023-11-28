@@ -307,10 +307,20 @@ ORDER BY Number_of_Ex_Employees DESC;
 - Approximately 60% of all employees who left the company were in job level 1, 21.94% were in job level 2, and 13.5% were in job level 3. Only 4.20% (10 out of 237 employees) of all employees who left the company were in job levels 4 and 5. This shows that employees in lower job levels tend to leave the company more compared to those in higher levels. In terms of performance rating, a whopping 84.39% of all employees who left the company had a performance rating of 3, with only 15.61% being those with a performance rating of 4. This shows that employees with lower performance rating tend to leave the company more than those with higher rating.  
 
 ### Recommendations
-1. Delay promotions among employees in Research and Development (R&D) and Sales departments, and among Lab Technicians and Sales Executives to minimize attrition.
-2. When hiring, give priority to individuals who have worked for many other companies before because they are less likely to leave the company soon. 
+1. Review and possibly revise travel policies. Consider assessing the reasons behind high attrition rates among employees who rarely travel. It might be beneficial to understand if there are specific challenges or dissatisfaction associated with travel. Conversely, explore why employees who do not travel at all have lower attrition rates.
+2. Implement strategies to engage and retain employees aged 25-44 years as they show the highest attrition rates. This could include targeted professional development, mentorship programs, or initiatives that address the specific needs and preferences of this age group.
+3. Focus on retention strategies for employees in Life Sciences and Medical fields, where attrition rates are high. This could involve initiatives such as career development opportunities, mentorship programs, or addressing specific challenges associated with these fields.
+4. Assess the reasons behind high attrition rates among employees in stock options levels 0 and 1, and consider whether adjustments to stock option plans, additional benefits, or career development opportunities could help improve retention in these levels.
+5. Evaluate the effectiveness and impact of training programs, especially for employees who attended 2 and 3 trainings last year. It might be necessary to adjust training programs as needed and ensure they align with the career development goals of employees.
+6. Reevaluate the promotion process, especially for employees promoted within the last year, as they show a higher attrition rate. Ensure that promotions are accompanied by adequate support, training, and opportunities for career growth. It might be necessary to collect feedback from recently promoted employees to identify areas for improvement.
+7. Improve the onboarding process, especially for employees who have worked for 1 or 2 years. Consider implementing mentorship programs, providing clear career paths, and offering additional support to help employees feel more connected to the company.
+8. Consider tailored orientation programs and support for employees with less work experience. Conversely, recognize and leverage the positive trends among employees with extensive work experience, possibly incorporating their insights into mentorship or training programs.
+9. Investigate the reasons behind higher attrition rates among employees who have been under their current manager for fewer years. Consider providing training for managers on effective leadership and communication to strengthen relationships with their teams. Also, encourage regular feedback sessions between managers and employees to address concerns and foster a positive work environment.
+10. Develop targeted retention strategies for employees in job levels 1, 2, and 3, as they constitute the majority of those leaving the company. This could include career development programs, training opportunities, and clear pathways for advancement.
+11. Implement comprehensive career development programs, especially for employees with 0 and 2 years in their current roles. This could include training, mentorship, and clear career advancement paths to increase job satisfaction and commitment.
 
 ### Limitations
+
 
 ### References 
 - [Data Tutorials YouTube channel](https://www.youtube.com/watch?v=-sOHVl_iCHA&t=4s)
