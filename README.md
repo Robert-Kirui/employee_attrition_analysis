@@ -253,6 +253,41 @@ GROUP BY Years_At_Company
 ORDER BY Number_of_Ex_Employees DESC; 
 ```
 
+```SQL
+/* Patterns in attrition based on the number of years an employee has been under current manager */
+SELECT
+	 Years_With_Curr_Manager, 
+	 COUNT(*) AS Number_of_Ex_Employees, 
+	 ((COUNT(*) * 100.0) / (SELECT COUNT(*) FROM HR_data WHERE CF_current_Employee = 0)) AS Percentage_of_Total
+FROM HR_data
+WHERE CF_current_Employee = 0
+GROUP BY Years_With_Curr_Manager
+ORDER BY Number_of_Ex_Employees DESC; 
+```
+
+```SQL
+/* Correlation between attrition and job level and performance rating */
+SELECT
+	 Job_Level, 
+	 COUNT(*) AS Number_of_Ex_Employees, 
+	 ((COUNT(*) * 100.0) / (SELECT COUNT(*) FROM HR_data WHERE CF_current_Employee = 0)) AS Percentage_of_Total
+FROM HR_data
+WHERE CF_current_Employee = 0
+GROUP BY Job_Level
+ORDER BY Number_of_Ex_Employees DESC;
+```
+
+```SQL
+SELECT
+	 Performance_Rating, 
+	 COUNT(*) AS Number_of_Ex_Employees, 
+	 ((COUNT(*) * 100.0) / (SELECT COUNT(*) FROM HR_data WHERE CF_current_Employee = 0)) AS Percentage_of_Total
+FROM HR_data
+WHERE CF_current_Employee = 0
+GROUP BY Performance_Rating
+ORDER BY Number_of_Ex_Employees DESC;
+```
+
 ### Findings
 - The overall attrition rate for the company is 16.12%.
 - Research and Development (R&D) and Sales departments, as well as Lab Technician and Sales Executive roles have higher attrition rates compared to other departments and job roles.
@@ -267,7 +302,9 @@ ORDER BY Number_of_Ex_Employees DESC;
 - Attrition rate is very high among employees who have previously worked with one other company (41.35%) and those who haven’t worked with any other company before (9.70%). On the other hand, employees who have previously worked with 8 and 9 other companies post the lowest attrition rate (2.53% and 5.06% respectively).
 - There is no correlation between the number of total working years and attrition rate. Employees who have worked for 1 year has the highest attrition, while those who have worked for 21, 25, 26, 28, 31, 33, and 34 years have the lowest attrition (0.42%). Those who have worked for 40 years have a relatively lower attrition rate (0.84%).
 - There is a correlation between the number of years in current role and attrition rate. Employees with 0 and 2 years in current role have the highest attrition (30.80% and 28.69% respectively), while those with 12, 13, and 14 years in current role post the lowest attrition rate (0.42%). Employees with 16, 17, and 18 years in current role have no attrition at all (0.00%).
-- Employees who have been in the company for 1 and 2 years have the highest attrition (24.89% and 11.39% respectively). Attrition rate is the lowest among employees who have been in the company for 15 years or more (0.42%). 
+- Employees who have been in the company for 1 and 2 years have the highest attrition (24.89% and 11.39% respectively). Attrition rate is the lowest among employees who have been in the company for 15 years or more (0.42%).
+- Employees who have been under the current manager for fewer years tend to leave the company more, compared to those who have been under the current manager for many years.
+- Approximately 60% of all employees who left the company were in job level 1, 21.94% were in job level 2, and 13.5% were in job level 3. Only 4.20% (10 out of 237 employees) of all employees who left the company were in job levels 4 and 5. This shows that employees in lower job levels tend to leave the company more compared to those in higher levels. In terms of performance rating, a whopping 84.39% of all employees who left the company had a performance rating of 3, with only 15.61% being those with a performance rating of 4. This shows that employees with lower performance rating tend to leave the company more than those with higher rating.  
 
 ### Recommendations
 1. Delay promotions among employees in Research and Development (R&D) and Sales departments, and among Lab Technicians and Sales Executives to minimize attrition.
