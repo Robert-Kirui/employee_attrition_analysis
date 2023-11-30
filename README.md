@@ -32,6 +32,7 @@ The dataset was obtained from [Data Tutorials YouTube channel](https://www.youtu
 - What is the overall attrition rate for the company?
 - What is the attrition rate by gender, department, job roles, level of education, field of education, age band, frequency of business travel, and marital status?
 - Is there a correlation between attrition and stock option level, number of trainings in the last year, number of years since last promotion, number of companies previously worked, total working years, number of years in the current role, and number of years at the company?
+- What is the average age, average years at the company, average years since last promotion, average number of companies worked, average total working years, average years in the current role, average years under current manager, and average distance from home for current and departed employees?
   
 ### Findings 
 ```SQL
